@@ -9,7 +9,10 @@
   background-blend-mode: luminosity;
   background-position: center center;
   background-size: cover;
-  background-attachment: fixed;
+
+  @screen laptop {
+    background-attachment: fixed;
+  }
 }
 
 // section opinions
