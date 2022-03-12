@@ -1,6 +1,10 @@
+<script>
+  import Logo from "/src/images/logo-01--dark.svg";
+</script>
+
 <div class="footer-wrapper">
   <div>
-    <img class="w-48" src="/src/images/logo-01--dark.svg" alt="" />
+    <img class="w-48" src={Logo} alt="" />
   </div>
   <div>
     <h3>Horaires d'ouverture</h3>
