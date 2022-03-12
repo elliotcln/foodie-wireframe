@@ -1,0 +1,23 @@
+/**
+Name: Foodie Starter Wireframe
+Version: 0.0.1
+Author: Elliot COLLIN <elliot.cln@gmail.com>
+**/
+
+@import "tailwindcss/base";
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./layout/header";
+@import "./layout/navbar";
+@import "./layout/footer";
+
+@import "tailwindcss/components";
+@import "./components/buttons";
+@import "./components/hero";
+@import "./components/menu";
+@import "./components/opinions";
+
+@import "tailwindcss/utilities";
+
+@import "./pages/index";

@@ -1,0 +1,15 @@
+.footer {
+  @apply bg-white text-sm text-gray-900;
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.footer-wrapper {
+  @apply grid gap-4 pt-12 pb-8 tablet:grid-cols-2 laptop:grid-cols-4 laptop:gap-12;
+}

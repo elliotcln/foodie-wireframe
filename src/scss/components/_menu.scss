@@ -1,0 +1,28 @@
+.menu-accordion {
+  @apply flex flex-col gap-2;
+  h3 > button {
+    @apply flex w-full items-center justify-between border border-gray-900 px-6 py-4 font-sans text-xs font-bold uppercase tracking-wide;
+
+    &:focus,
+    &:hover {
+      @apply bg-gray-100;
+    }
+  }
+
+  [role="region"] {
+    @apply hidden gap-4 p-6 laptop:grid-cols-2 laptop:gap-12;
+  }
+
+  h3.is-expanded {
+    button {
+      @apply bg-gray-900 text-yellow-100;
+
+      svg {
+        @apply rotate-180 transform;
+      }
+    }
+    & + [role="region"] {
+      display: grid;
+    }
+  }
+}

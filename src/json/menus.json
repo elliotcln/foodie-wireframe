@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Entrées",
+    "plates": [
+      {
+        "title": "Tomates Mozzarella",
+        "desc": "Tomates en rondelles avec mozzarella & basilic",
+        "price": 8
+      },
+      {
+        "title": "Camembert rôti",
+        "desc": "",
+        "price": 10
+      },
+      {
+        "title": "Accras de morue",
+        "price": 8
+      },
+      {
+        "title": "La Burratina, Tomates anciennes de Trégon",
+        "desc": "Pesto et Foccacia",
+        "price": 14.5
+      }
+    ]
+  },
+  {
+    "title": "Salades",
+    "plates": []
+  },
+  {
+    "title": "Plats",
+    "plates": []
+  },
+  {
+    "title": "Desserts",
+    "plates": []
+  },
+  {
+    "title": "À partager",
+    "plates": []
+  }
+]

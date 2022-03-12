@@ -1,0 +1,23 @@
+// section presentation
+.section-presentation {
+  padding-block-start: 12rem;
+  padding-block-end: 8rem;
+  position: relative;
+
+  background: url(/src/images/gallery/05.jpg) theme("colors.yellow.50")
+    no-repeat;
+  background-blend-mode: luminosity;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+// section opinions
+.section-opinions {
+  @apply relative py-16 laptop:py-24;
+}
+
+// section menus
+.section-menu {
+  @apply relative bg-white py-16 text-gray-900 laptop:py-24;
+}

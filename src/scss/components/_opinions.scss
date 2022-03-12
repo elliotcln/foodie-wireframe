@@ -1,0 +1,35 @@
+.opinions {
+  @apply mx-auto grid max-w-5xl grid-cols-3;
+
+  &-item figure {
+    @apply relative flex flex-col gap-4 px-8;
+
+    blockquote::before {
+      content: "‟";
+      @apply absolute left-0 top-0 transform text-5xl opacity-20;
+    }
+
+    figcaption {
+      @apply flex items-center gap-2 text-xs font-bold uppercase text-yellow-100;
+      &::before {
+        content: "";
+        @apply mr-2 inline-block h-0 w-6 border-b border-yellow-100;
+      }
+
+      cite {
+        @apply font-normal text-gray-400;
+      }
+    }
+  }
+}
+.opinions-controls {
+  @apply mx-auto mt-8 flex max-w-5xl items-center justify-end gap-8;
+
+  button {
+    @apply transition-colors duration-300 hover:text-yellow-100;
+  }
+
+  .opinions-prev {
+    @apply -scale-x-100 transform;
+  }
+}

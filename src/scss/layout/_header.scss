@@ -1,0 +1,11 @@
+header[role="banner"] {
+  z-index: 9999;
+  @apply relative;
+
+  &.is-fixed {
+    @apply fixed top-0 w-full bg-gray-900 bg-opacity-90;
+    .navbar-wrapper {
+      @apply h-20;
+    }
+  }
+}

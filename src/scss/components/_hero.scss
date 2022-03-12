@@ -1,0 +1,18 @@
+.hero {
+  @apply relative -mt-24 flex h-screen items-center overflow-hidden;
+  img {
+    opacity: 0.215;
+    @apply absolute inset-0 h-full w-full object-cover;
+  }
+
+  &-container {
+    @apply relative w-full;
+  }
+}
+
+// hero on deslkop breakpoint
+@screen desktop {
+  .hero {
+    @apply -mt-40;
+  }
+}
